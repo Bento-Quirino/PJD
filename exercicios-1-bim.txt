@@ -1,0 +1,16 @@
+1. O que é uma variável?
+2. Como se declara uma variável em Python?
+3. Como se inicializa uma variável em Python?
+4. Quais são as regras para nomear variáveis?
+5. Como se verifica o tipo de valor que uma variável armazena em Python?
+6. Quais são os tipos de dados primitivos em Python? Dê exemplos de cada um.
+7. Qual é a diferença entre int e float em Python?
+8. Como se converte uma string para um número inteiro em Python?
+9. O que é uma string em Python? Como se acessa caracteres individuais em uma string?
+10. Como é possível ler um valor informado pelo usuário e armazená-lo em uma variável?
+11. Como se estrutura uma condicional if em Python? Dê um exemplo.
+12. O que é uma estrutura if-else? Dê um exemplo de uso.
+13. O que acontece se nenhuma condição em um bloco if-else for atendida?
+14. Escreva um código que verifica se uma string está vazia ou não.
+15. Escreva um código que verifica se um número é par ou ímpar usando operadores lógicos e condicionais.
+16. Escreva um código que verifica se um número está entre 10 e 20 usando operadores de comparação.
