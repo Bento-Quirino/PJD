@@ -42,3 +42,18 @@ print(f"numero de elementos: {len(hot_bar)}")
 # usando a função clear()
 hot_bar.clear()
 print(f"numero de elementos: {len(hot_bar)}") # exibe zero porque esvaziamos o List
+
+# Existem duas formas de adicionar elementos
+# A primeira é usando o append(), que adiciona no fim da lista
+hot_bar.append(51.55)
+
+# A segunda é usando o insert(), que insere o valor numa posição específica
+hot_bar.insert(2, "José")
+
+# Finalmente, existem duas formas de remover elementos do List
+# O primeiro é usar a função remover(), que remove o valor informado se existir no List
+hot_bar.remove(51.55) # funciona e remove porque o elemento existe
+hot_bar.remove("bvc") # não remove nada porque o valor não existe no List
+
+# A segunda forma é usando o pop(), que precisa o índice do elemento a ser removido
+hor_bar.pop(1) # remove o segundo elemento
