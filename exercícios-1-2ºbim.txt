@@ -1,0 +1,10 @@
+Enviar respostas para marcos.prof.cps@bentoquirino.com.br,
+assunto "EX 1 2º Bim PJD". Escerver as respostas, juntamente com o nome, no corpo do email.
+
+1) Qual é a diferença entre 'for' e 'if-else'?
+2) O que faz a variável de controle do 'for'?
+3) Qual é a diferença entre os dois padrão de uso do 'for' vistos em aula?
+4) Como podemos usar a variável de conrole para modificar o valor de uma estrutura de dados, como 'list'?
+5) Escreva um código que faz cálculo de média de notas. O código deve solicitar ao usuário digitar 3 notas no console.
+Depois, deve exibir o cálculo da média. Não use 'list' nem 'for'.
+6) Resolva o mesmo exercício anterior, mas usando 'list' e 'for', e o usuário deve digitar 6 notas ao invés de três.
