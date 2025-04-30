@@ -1,0 +1,22 @@
+Enviar exerícios no corpo do email para marcos.prof.cps@bentoquirino.com.br
+assunto "PJD 2ex 2º bim"
+DATA: 07/05
+
+1) Escreva um programa que peça ao usuário para digitar 10 números.
+A seguir, conte quantos números são pares e quantos são ímpares,
+e exiba essa informação ao usuário.
+
+2) Suponha que voce tenha uma lista com notas de vários alunos.
+Escreva um programa que calcule a média de notas usando apenas as notas dos alunos que tiraram >= 6.
+Exiba ao usuário essa informação, e quantos alunos foram aprovados.
+
+3) Escreva um código que peça ao usuário para digitar 10 nomes.
+Depois, mostre apenas os nomes que têm 4 letras ou menos.
+
+4) Dada uma lista de número qualquer, escreva um código que avalia se o número
+de cada posição dessa lista esta entre 0.0 e 1.0. Se não estiver,
+substitua o valor pelo limite mais próximo (por exemplo, 1.1 deverá ser substituido por 1.0).
+
+5) Escreva um programa que peça ao usuário para digitar uma lista de 6 números.
+Em seguida, peça outro número e informe ao usuário se esse último número está
+ou não presente na lista.
