@@ -2,10 +2,83 @@ Enviar respostas para marcos.prof.cps@bentoquirino.com.br,
 assunto "EX 1 2º Bim PJD". Escerver as respostas, juntamente com o nome, no corpo do email.
 PRAZO: 30/04
 
-1) Qual é a diferença entre 'for' e 'if-else'?
-2) O que faz a variável de controle do 'for'?
-3) Qual é a diferença entre os dois padrão de uso do 'for' vistos em aula?
-4) Como podemos usar a variável de conrole para modificar o valor de uma estrutura de dados, como 'list'?
-5) Escreva um código que faz cálculo de média de notas. O código deve solicitar ao usuário digitar 3 notas no console.
-Depois, deve exibir o cálculo da média. Não use 'list' nem 'for'.
-6) Resolva o mesmo exercício anterior, mas usando 'list' e 'for', e o usuário deve digitar 6 notas ao invés de três.
+# 1) Qual é a diferença entre 'for' e 'if-else'?
+
+Tanto 'for' quanto o 'if-else' são estruturas de
+execução de código - eles condicionam o código
+a executar de uma forma específica.
+O 'for' é uma estrutura eu condiciona seu código
+a executar de forma repetida, ou seja,
+é uma estrutura de repetição.
+O 'if-else' é uma estrutura de decisão.
+Em outras palavras, enquanto o 'for' permite que 
+um bloco de código seja excutado repetidamente
+a partir de determinadas condições,
+o 'if-else' decide sobre qual código executar
+a partir de uma decisão.
+
+
+# 2) O que faz a variável de controle do 'for'?
+
+#arr = [4, 8, 1, 4, 2]
+#for i in range(0, len(arr))
+#    arr[i]
+Uma variável de controle no contexto do 'for'
+marca o número de repetições executadas,
+mais especificamente o valor da repetição atual.
+Ou seja, ele é o contador de repetições.
+
+# 3) Qual é a diferença entre os dois padrões
+# de uso do 'for' vistos em aula?
+
+Em geral, um padrão iterava sobre um 'list',
+a partir de seus elementos - esse padrão costuma
+ser chamado de 'range-based loop'. Isso significa
+que a variável de controle assumia o elemento dentro do list.
+
+o outro padrão iterva sobre o 'list' a partir de seus índices
+ou seja, a variável de controle é um valor inteiro (int),
+e marcava a posição dentro do list.
+
+
+# 4) Como podemos usar a variável de conrole
+# para modificar o valor de uma
+# estrutura de dados, como 'list'?
+
+através da 'for', podemos usar uma variavel de controle
+como contadora das repetições, e fazer com que essas repetições
+comecem em zero e vão até o numero de elementos do list.
+como a variável de controle faz a contagem das repetições,
+podemos usar o valor da variável de controle para acessar
+os índices do list.
+
+
+# 5) Escreva um código que faz cálculo de média de notas.
+# O código deve solicitar ao usuário digitar
+# 3 notas no console. Depois, deve exibir o cálculo
+# da média. Não use 'list' nem 'for'.
+
+nota1 = float(input("Digite a primeira"))
+nota2 = float(input("Digite a segunda"))
+nota3 = float(input("Digite a terceira"))
+media = (nota1 + nota2 + nota3) / 3.0
+print(f"A média é {media}")
+
+
+# 6) Resolva o mesmo exercício anterior,
+# mas usando 'list' e 'for',
+# e o usuário deve digitar 6 notas ao invés de três.
+
+notas = []
+for i in range(0, 6):
+    n = float(input(f"Digite a nota nº {i + 1}"))
+    notas.append(n)
+
+media = 0
+for i in range(0, len(notas))
+    media += notas[i]
+    # media = media + notas[i]
+
+# media /= len(notas)
+media = media / len(notas)
+print(f"A media é {media}")
