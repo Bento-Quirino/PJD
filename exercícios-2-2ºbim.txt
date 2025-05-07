@@ -6,17 +6,98 @@ DATA: 07/05
 A seguir, conte quantos números são pares e quantos são ímpares,
 e exiba essa informação ao usuário.
 
+numeros = [] # declara uma lista vazia
+for i in range(0, 10): # for de 0 a 9 (repete 10x)
+    numeros[i] = int(input("Digite um número"))
+
+numeros_impares = 0
+numeros_pares = 0
+for i in numeros: # itera sobre os elementos de 'numeros'
+    if i % 2 == 0:
+        numeros_pares++
+        # numeros_pares += 1
+        # numeros_pares = numeros_pares + 1
+    else:
+        numeros_impares++
+        
+print(f"Pares: {numeros_pares}, Ímpares: {numeros_impares}")
+
+############################################################
+
 2) Suponha que voce tenha uma lista com notas de vários alunos.
 Escreva um programa que calcule a média de notas usando apenas as notas dos alunos que tiraram >= 6.
 Exiba ao usuário essa informação, e quantos alunos foram aprovados.
 
+notas = []
+media = 0
+aprovados = 0
+#'i' guarda o valor corrente de 'notas'
+# mas como constantes (para leitura)
+for i in notas: # itera sobre 'notas'
+    if i >= 6.0:
+        aprovados += 1
+        media += i
+        # media = media + i
+
+media = media / len(notas)
+
+print(f"Aprovados: {aprovados}, Media: {media}")
+
+############################################################
+
 3) Escreva um código que peça ao usuário para digitar 10 nomes.
 Depois, mostre apenas os nomes que têm 4 letras ou menos.
+
+nomes = []
+for i in range(0, 10):
+    nomes[i] = input("Digite um nome")
+
+selecionados = "" # string vazia
+for i in nomes:
+    if len(i) == 4:
+        #concatenando 'i' a 'selecionados'
+        selecionados += (i + ", ") 
+
+print(f"{selecionados}")
+
+############################################################
 
 4) Dada uma lista de número qualquer, escreva um código que avalia se o número
 de cada posição dessa lista esta entre 0.0 e 1.0. Se não estiver,
 substitua o valor pelo limite mais próximo (por exemplo, 1.1 deverá ser substituido por 1.0).
 
+numeros = []
+for i in range(0, len(numeros)):
+    if numeros[i] < 0.0:
+        numeros[i] = 0.0
+        continue
+        # como 1º é verdadeiro
+        # o segundo pode ser pulado
+    
+    if numeros[i] > 1.0:
+        numeros[i] = 1.0
+    
+#for i in numeros: não pode ser usado
+#porque o valor lido de 'numeros' é lido como constante,
+#não modifica o valor original em 'numeros'
+
+############################################################
+
 5) Escreva um programa que peça ao usuário para digitar uma lista de 6 números.
 Em seguida, peça outro número e informe ao usuário se esse último número está
 ou não presente na lista.
+
+numeros = []
+for i in range(0, 6):
+    numeros[i] = int(input("Digite um numero"))
+
+alvo = int(input("Digite mais um numero"))
+encontrado = False
+for i in numeros:
+    if alvo == i:
+        print(f"Numero alvo encontrado")
+        encontrado = True
+        break # interrompe um for
+
+if !encontrado: # encontrado == False
+    print(f"Numero alvo NÃO encontrado")
