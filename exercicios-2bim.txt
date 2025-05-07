@@ -1,0 +1,18 @@
+1) Escreva um programa que peça ao usuário para digitar 5 números.
+Armazene-os em uma lista. Finalmente, o programa deve exibir
+ao usuário o maior e menor número da lista. NÃO use "max()"/"min()".
+
+2) Escreva um codigo que peça ao usuário para digitar um texto
+e informe-o de quantas frases existem nele.
+
+3) Peça um número ao usuário. Para doso os número de 1 até
+o número informado:
+- Mostre 'x3' se for múltipl de 3.
+- Mostre 'x5' se for múltiplo de 5.
+- Mostre o número normal, caso contrário.
+
+4) Suponha que um código receba uma lista qualquer.
+Faça com que esse código inverta essa lista, ou seja,
+o primeiro elemento troca de lugar com o último,
+o segundo troca de lugar com o penúltimo, e assim por diante.
+NÃO use reverse() nem [-i] ou [::-1].
