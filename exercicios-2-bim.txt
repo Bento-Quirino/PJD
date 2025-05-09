@@ -5,7 +5,7 @@ ao usuário o maior e menor número da lista. NÃO use "max()"/"min()".
 2) Escreva um codigo que peça ao usuário para digitar um texto
 e informe-o de quantas frases existem nele.
 
-3) Peça um número ao usuário. Para doso os número de 1 até
+3) Peça um número ao usuário. Para todos os número de 1 até
 o número informado:
 - Mostre 'x3' se for múltipl de 3.
 - Mostre 'x5' se for múltiplo de 5.
