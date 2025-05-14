@@ -1,0 +1,106 @@
+Questão 1) Assinale a alternativa que indica a somatória de todos os restos da divisão do intervalo 0-100 com o número 3 (1,0 Ponto):  
+
+a) 0 
+
+b) 15 
+
+c) 60 
+
+d) 100 
+
+ 
+
+Dada a lista [8, 0.1, 7, 2, 0.75, 2, 12, 0.02, 4, 1, 2, 10, 0.3, 5, 6, 4, 11, 0.45, 3, 7, 8, 1, 0.7], responda as questões a seguir 
+
+ 
+
+Questão 2) Calcule a divisão entre os elementos, de modo que o resultado da divisão entre o 1º e o 2º número deve ser dividido pelo 3º, esse resultado deve ser dividido pelo 4º, e assim por diante. Indique o resultado obtido. Obs.: 1e3 = 1 x 10³ (1,0 Ponto):  
+
+a) 1.0e-05 
+
+b) 7.0e-05 
+
+c) 0.1e-05 
+
+d) 5.4e-05 
+
+ 
+
+Questão 3) Itere sobre a lista usando duas variáveis de controle, uma para índices pares, e outro para índices ímpares. Escolha a alternativa que contém a multiplicação dos valores em índices pares elevado a multiplicação dos valores de índices ímpares (1,0 Ponto): 
+
+a) 16.3 × 10³¹ 
+b) 3.15 × 10³² 
+c) 0.16 × 10³³ 
+d) 3.16 × 10³² 
+
+ 
+
+Questão 4) Crie uma lista contendo a lista original invertida. Assinale a opção que contém a soma calculada a partir do resto da divisão formado pela lista original e pela lista invertida (para cada índice). Considere que as divisões por zero resultam em zero. (1,0 Ponto): 
+
+a) 21 
+b) 100 
+c) 20 
+d) 10 
+
+ 
+
+ 
+
+Considere a lista ["Ana", "Carlos", "Beatriz", "Daniel", "Eduardo", "Fernanda", "Gustavo", "Helena"] para as próximas questões 
+
+ 
+
+Questão 5) Escolha a alternativa que apresente a letra central (mediana), se todos os nomes fossem concatenados (1,0 Ponto): 
+
+a) o 
+b) E 
+
+c) u 
+d) F 
+
+ 
+
+Questão 6) Escolha a alternativa que apresente a letra central (mediana) da concatenação de todas as letras da lista original. Cada letra deve ser intercalada entre início e fim, ou seja, a primeira letra é a primeira letra do primeiro nome, a segunda letra é a última letra do último nome, a terceira letra, a segunda letra do primeiro nome, e assim por diante (1,0 Ponto): 
+
+a) t 
+b) u 
+
+c) E 
+d) o 
+
+ 
+
+Questão 7) Qual o índice da letra 'z' na concatenação inversa de todos os nomes? (1,0 Ponto): 
+
+a) 15ª 
+b) 16ª 
+c) 37ª 
+d) 40ª 
+
+ 
+
+Questão 8) Qual é a principal diferença entre as estruturas for e if-else em Python? (1,0 Ponto): 
+
+a) for é usado para repetição, enquanto if-else para tomada de decisão. 
+b) for e if-else são usados para a mesma finalidade: repetição de código. 
+c) if-else pode iterar sobre listas, enquanto for verifica condições. 
+d) for só funciona com números, e if-else com strings. 
+
+ 
+
+Questão 9) Como podemos usar uma variável de controle para modificar uma lista em Python? (1,0 Ponto): 
+
+a) Usando a variável como índice para acessar e alterar elementos diretamente (ex: lista[i] = novo_valor). 
+b) A variável de controle não pode modificar listas, apenas strings. 
+c) Atribuindo a lista inteira à variável de controle (ex: variavel = lista). 
+d) Utilizando a variável apenas para contar elementos, sem alterá-los. 
+
+ 
+
+Questão 10) O que ocorre quando usamos índices negativos em uma lista no Python? (1,0 Ponto): 
+
+a) Gera um erro de sintaxe, pois índices negativos são inválidos 
+b) Acessa os elementos a partir do final da lista (-1 = último elemento) 
+c) Converte automaticamente para positivo (ex: -2 vira 2) 
+d) Retorna sempre o primeiro elemento, independentemente do valor 
+
