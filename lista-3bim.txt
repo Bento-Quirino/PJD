@@ -1,0 +1,37 @@
+1. Python é fortemente e dinamicamente tipado. C# é fortemente, mas estaticamente tipado. O que isso significa?
+
+2. Como é feita a declaração de variáveis em Python comparada com C#? Dê exemplos para cada tipo de valor existente, nas duas linguagens.
+
+3. Qual a diferença entre indentação obrigatória (Python) e blocos delimitados por {} (C#)?
+
+4. Como você escreve uma estrutura de condição if em C# para checar se x é maior que 5?
+
+5. Como se declara uma função que soma dois números e retorna o resultado em Python e em C#?
+
+6. Python tem listas. Qual o equivalente em C#?
+
+7. O Python possui mais de uma forma de usar 'for'. Explique e dê exemplos das formas de usar 'for' no C#.
+
+8. Como você declara um array de strings chamado "nomes" com três elementos? Escreva como é em Python e em C#.
+
+9. Explique o que são tipos de valor e tipos de referência em C#.
+
+10. O que é null em C#, e qual o comportamento ao acessar um método de um objeto nulo?
+
+11. Cite pelo menos um cenário em que Python seria preferível a C#, e por quê.
+
+12. Cite duas diferenças entre C# e Python quanto à tipagem de variáveis.
+
+13. Em C#, como você define uma função que retorna um bool e recebe um string como parâmetro?
+
+14. O que é o Unity? (definição breve)
+
+15. O que são GameObjects e Componentes em Unity? Como se relacionam?
+
+16. Qual componente todo objeto 3D deve ter?
+
+17. Qual a função do Transform e sua versão 2D (RectTransform)? 
+
+18. Explique a relação entre Componentes e Classes.
+
+19. Explique o que é classe, objeto, atributos e métodos, em POO.
