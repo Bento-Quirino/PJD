@@ -35,3 +35,6 @@
 18. Explique a relação entre Componentes e Classes.
 
 19. Explique o que é classe, objeto, atributos e métodos, em POO.
+
+Enviar todas as respostas para marcos.prof.cps@bentoquirino.com.br
+Assunto "Lista 3º Bim PJD".
