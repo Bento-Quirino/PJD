@@ -19,22 +19,49 @@
 10. O que é null em C#, e qual o comportamento ao acessar um método de um objeto nulo?
 
 11. Cite pelo menos um cenário em que Python seria preferível a C#, e por quê.
+- Quando você precisa de praticidade, semântica menos complicada, e menor necessidade
+de velocidade e processamento - processamento assíncrono de dados.
 
 12. Cite duas diferenças entre C# e Python quanto à tipagem de variáveis.
 
 13. Em C#, como você define uma função que retorna um bool e recebe um string como parâmetro?
 
 14. O que é o Unity? (definição breve)
+- Unity é um motor de jogo. Significa que ele é um programa que de fazer jogo
+que concentra diversas ferramentas específicas para essa finalidade.
+  Por exemplo, para simular física, o Unity usa um motor de física;
+para renderizar objetos em cena, ele utiliza API's específicas para
+comunicação com a placa de vídeo.
 
 15. O que são GameObjects e Componentes em Unity? Como se relacionam?
+- GameObjects são objetos de cena do Unity.
+- Componentes são objetos, vinculados à GameObject, que dão aos GameObject
+funções ou rotinas específicas, que permitem que eles executem alguma ação.
 
 16. Qual componente todo objeto 3D deve ter?
-
-17. Qual a função do Transform e sua versão 2D (RectTransform)? 
+17. Qual a função do Transform e sua versão 2D (RectTransform)?
+- Transform. Esse componente é necessário para dar aos GameObjects
+atributos e métodos relacionados a transformações geométricas.
+  Para que um objeto exista em cena, obrigatoriamente, ele será posicionado
+em algum lugar dessa cena. Essa informação, quem dá ao GameObject, é
+o componente Transform.
+  RectTransform faz a mesma coisa que o Transform, mas para objetos
+da GUI.
 
 18. Explique a relação entre Componentes e Classes.
+- Todo Componente é, por definição, uma classe - tanto os Componentes nativos do Unity
+quanto o código que os programadores criam. Ao adicionar um componente em um GameObject
+esse componente para ser usado pelo GameObejct é instanciado como objeto,
+e portanto, é possível acessar e usar esse componente como objeto através dos códigos.
 
 19. Explique o que é classe, objeto, atributos e métodos, em POO.
+- Classe: classes em POO representam um "molde" para criação de objetos.
+  Em geral, a classe declara quais informações um objeto carrega.
+- Objeto: representam exemplares de uma classe. Equanto a classe declara
+  as informações, cada objeto carrega o valor de tais informações.
+- Atributos: são características que um objeto tem.
+- Métodos são rotinas que um objeto executa. Em outras palavras, coisas
+  que um objeto faz.
 
 Enviar todas as respostas para marcos.prof.cps@bentoquirino.com.br
 Assunto "Lista 3º Bim PJD".
