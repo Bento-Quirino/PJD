@@ -1,10 +1,17 @@
 1. Python é fortemente e dinamicamente tipado. C# é fortemente, mas estaticamente tipado. O que isso significa?
-
 2. Como é feita a declaração de variáveis em Python comparada com C#? Dê exemplos para cada tipo de valor existente, nas duas linguagens.
+- Para declarar uma variável em C#, seguimos a regra "<tipo> <nome>;"
+exemlpo: string name;
+- Estaticamente tipada significa que suas variáveis tem tipo estático, ou seja, o tipo definido
+na declaração é eterno dentro do código, portanto, uma mesma variável, nunca poderá
+armazenar valor de um tipo diferente do inicial.
 
 3. Qual a diferença entre indentação obrigatória (Python) e blocos delimitados por {} (C#)?
+- A indentação definia o escopo das funções. Em C# quem faz esse papel são as chaves, que delimitam
+o que faz parte de cada classe, método ou estrutura de execução de código.
 
 4. Como você escreve uma estrutura de condição if em C# para checar se x é maior que 5?
+if(x > 5) { /* (...) */ }
 
 5. Como se declara uma função que soma dois números e retorna o resultado em Python e em C#?
 
@@ -15,8 +22,13 @@
 8. Como você declara um array de strings chamado "nomes" com três elementos? Escreva como é em Python e em C#.
 
 9. Explique o que são tipos de valor e tipos de referência em C#.
+- Referência é um tipo de valor que guarda o endeerço de memória de objetos (de classes).
+Isso permite que uam variável desse tipo possa não guardar valor algum (ser nula).
+- Tipo valor é uma variável que armazena valor, e por definição, nunca poderá ser nula
 
 10. O que é null em C#, e qual o comportamento ao acessar um método de um objeto nulo?
+É a ausência de valor. Quando se tenta acessar uma variável que tenha valor null, o Unity trava
+a execução do jogo, ou em um programa, ele é encerrado pelo windows
 
 11. Cite pelo menos um cenário em que Python seria preferível a C#, e por quê.
 - Quando você precisa de praticidade, semântica menos complicada, e menor necessidade
