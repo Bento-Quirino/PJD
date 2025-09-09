@@ -1,0 +1,4 @@
+O código desenovlvido na aula do dia 02/09 implementava um objeto capaz de ser controlado para mover no eixo +Z (para frente).
+Usando esse código, implemente o controle para que ele se mova nas 4 direções (+X, -X, +Z, -Z).
+
+Enviar código para marcos.prof.cps@bentoquirino.com.br, assunto "4 direções 1º games PJD"
