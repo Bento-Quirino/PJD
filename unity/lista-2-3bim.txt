@@ -1,0 +1,14 @@
+1. O que são Prefabs e por que são úteis?
+2. O que é herança? Dê um exemplo simples em C#.
+3. Explique polimorfismo com um exemplo prático em Unity
+4. Explique o ciclo de vida de um script Unity: Awake(), Start(), Update(), FixedUpdate(), LateUpdate()
+5. Quais scripts herdam de MonoBehaviour? O que isso permite?
+6. Como instanciar um GameObject durante runtime usando C#?
+7. O que é 'Time.deltaTime'?
+8. Como verificamos se uma tecla foi pressionada?
+9. Qual a diferença entre GetKey e GetKeyDown?
+10. Como funciona o método Input.GetAxis()?
+11. Como podemos configurar as teclas e controles de um jogo no Unity?
+
+enviar respostas para marcos.prof.cps@bentoquirino.com.br
+assunto "lista 2 3bim PJD"
