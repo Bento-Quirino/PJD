@@ -9,6 +9,7 @@
 9. Qual a diferença entre GetKey e GetKeyDown?
 10. Como funciona o método Input.GetAxis()?
 11. Como podemos configurar as teclas e controles de um jogo no Unity?
+12. Para que serve o ';' nos códigos? Como ele deve ser usado?
 
 enviar respostas para marcos.prof.cps@bentoquirino.com.br
 assunto "lista 2 3bim PJD"
