@@ -10,6 +10,10 @@
 10. Como funciona o método Input.GetAxis()?
 11. Como podemos configurar as teclas e controles de um jogo no Unity?
 12. Para que serve o ';' nos códigos? Como ele deve ser usado?
+13. Suponha que estamos configurando uma cena, e demos Play para testar.
+  Editamos essa cena durante o Play, e depois o paramos. O que acontece?
+14. Qual é a diferença entre Transform e transform?
+15. Qual é a diferença enter SpriteRenderer e MeshRenderer?
 
 enviar respostas para marcos.prof.cps@bentoquirino.com.br
 assunto "lista 2 3bim PJD"
