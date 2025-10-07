@@ -1,0 +1,5 @@
+Usando o código feito na aula sobre movimento usando Rigidbody (movimento no plano XZ e pulo no Y).
+Implemente a versão 2D desse código, usando um projeto 2D.
+
+Enviar código para marcos.prof.cps@bentoquirino.com.br
+Assunto "Mov 2D 1ºGames"
