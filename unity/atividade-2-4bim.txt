@@ -1,0 +1,9 @@
+Crie um planetário no Unity (projeto 3D).
+Considere que deve haver um objeto central, que gira ao redor de si mesmo.
+Coloque demais objetos ao seu redor, que giram ao redor dele, cada um com uma velocidade angular diferente.
+
+Dica: use a função Rotate, defina uma variável para velocidade angular, e configure um valor diferente para cada objeto
+https://docs.unity3d.com/6000.2/Documentation/ScriptReference/Transform.Rotate.html
+
+enviar CÓDIGO para marcos.prof.cps@bentoquirino.com.br
+assunto "Planetário 1º Games"
