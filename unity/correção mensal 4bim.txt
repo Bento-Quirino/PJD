@@ -6,7 +6,7 @@ b) Um motor de física para simulações 3D
 
 **c) Uma engine para desenvolvimento de jogos e experiências interativas**
 
-d) Um software exclusivo para modelagem 3D 
+d) Um software exclusivo para modelagem 3D  
 
 
 Questão 02: O que faz a MainCamera, presente nas cenas do Unity  
@@ -17,7 +17,7 @@ a) Controla a iluminação principal da cena
 
 c) Define as propriedades físicas do ambiente 
 
-d) Gerencia os áudios principais do jogo     
+d) Gerencia os áudios principais do jogo  
 
  
 Questão 03: Qual é a diferença entre a aba Game e a aba Scene?  
@@ -28,7 +28,7 @@ b) Scene: para modelos 3D; Game: para interfaces 2D
 
 c) Scene: modo de desenvolvimento; Game: modo de build 
 
-d) Scene: edição de código; Game: edição de assets  
+d) Scene: edição de código; Game: edição de assets    
 
 
 Questão 04: O que é o Rigidbody?  
@@ -39,7 +39,7 @@ b) Um componente para animação de personagens
 
 **c) Um componente que adiciona física realista a um GameObject**
 
-d) Um sistema de partículas para efeitos especiais   
+d) Um sistema de partículas para efeitos especiais     
 
 
 Questão 05: Qual a relação entre um script e um componente?  
@@ -50,7 +50,7 @@ b) Componentes são scripts compilados em C++
 
 **c) Scripts são tipos de componentes que adicionam comportamento personalizado**
 
-d) São conceitos independentes sem relação direta  
+d) São conceitos independentes sem relação direta    
 
  
 Questão 06: O que é a aba Inspector?  
@@ -61,7 +61,7 @@ a) Local para organizar a hierarquia de objetos da cena
 
 c) Área para visualização do jogo em tempo de execução 
 
-d) Local para gerenciar os assets do projeto    
+d) Local para gerenciar os assets do projeto      
 
  
 Questão 07: O que é a aba Hierarchy?  
@@ -72,7 +72,7 @@ b) Exibe a relação de herança entre scripts
 
 c) Organiza os arquivos do projeto por tipo 
 
-d) Mostra o histórico de comandos executados   
+d) Mostra o histórico de comandos executados     
 
 
 Questão 08: O que é Transform e como as informações dele são armazenadas (tipo, acesso, etc..)?  
@@ -83,7 +83,7 @@ b) Script que controla transições de animação
 
 c) Sistema que gerencia transformações de textura 
 
-d) Tipo de dado para cálculos matemáticos complexos 
+d) Tipo de dado para cálculos matemáticos complexos   
 
  
 
@@ -95,12 +95,12 @@ a) As modificações são salvas automaticamente no projeto
 
 c) As modificações são aplicadas apenas aos prefabs 
 
-d) As modificações criam uma nova versão da cena   
+d) As modificações criam uma nova versão da cena      
 
- 
 
 Questão 10: Escreva um trecho de código que move um objeto em velocidade constante no plano XZ
 using UnityEngine;
+
 
 public class MovimentoXZ : MonoBehaviour
 {
